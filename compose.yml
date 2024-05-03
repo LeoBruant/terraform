@@ -1,0 +1,7 @@
+services:
+  terraform:
+    build: .
+    volumes:
+      - ./:/terraform
+      - ./.ssh:/root/.ssh
+    working_dir: /terraform
