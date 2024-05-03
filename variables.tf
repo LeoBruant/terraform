@@ -32,7 +32,7 @@ variable "os" {
 }
 
 variable "prefix" {
-  default     = "azure"
+  default     = "azure-terraform"
   description = "Ressources prefix"
   type        = string
 }
