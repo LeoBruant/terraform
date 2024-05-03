@@ -1,3 +1,4 @@
 .history
 .ssh/*
 .terraform*
+*tfstate

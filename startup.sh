@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # Node
-sudo apt install -y git nodejs
+sudo apt-get update && apt-get install -y git nodejs
 
 # Docker
-sudo apt-get update
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
